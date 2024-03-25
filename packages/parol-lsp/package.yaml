@@ -1,0 +1,19 @@
+---
+name: parol-lsp
+description: Implementation of Language Server Protocol for the Parol language.
+homepage: https://github.com/jsinger67/parol
+licenses:
+  - MIT
+  - Apache-2.0
+languages:
+  - Parol
+categories:
+  - LSP
+
+source:
+  id: pkg:cargo/parol-ls@0.17.2
+  supported_platforms:
+    - unix
+
+bin:
+  parol-ls: cargo:parol-ls
